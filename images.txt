@@ -8,6 +8,15 @@ python:3.10
 vllm/vllm-openai:v0.5.0
 docker.elastic.co/elasticsearch/elasticsearch:8.14.1
 ubuntu:22.04
+pytorch/pytorch:2.3.0-cuda11.8-cudnn8-devel
+pytorch/pytorch:2.3.0-cuda11.8-cudnn8-runtime
+ollama/ollama:latest
+debian:stable
+conda/miniconda3:latest
+nvidia/cuda:12.1.0-devel-ubuntu22.04
+nvidia/cuda:12.1.0-runtime-ubuntu22.04
+nvidia/cuda:12.1.0-cudnn8-devel-ubuntu22.04
+nvidia/cuda:12.1.0-cudnn8-runtime-ubuntu22.04
 #支持私库
 #支持指定架构
 --platform=linux/amd64 xiaoyaliu/alist
