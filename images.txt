@@ -29,6 +29,9 @@ mysql:8.0.36
 ghcr.io/songquanpeng/one-api:latest
 ghcr.io/labring/fastgpt:v4.8.5
 
+#transformers
+huggingface/transformers-pytorch-gpu:4.41.2
+
 
 #支持私库
 #支持指定架构
