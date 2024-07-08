@@ -18,8 +18,6 @@ nvidia/cuda:12.1.0-devel-ubuntu22.04
 nvidia/cuda:12.1.0-runtime-ubuntu22.04
 nvidia/cuda:12.1.0-cudnn8-devel-ubuntu22.04
 nvidia/cuda:12.1.0-cudnn8-runtime-ubuntu22.04
-huggingface/transformers-pytorch-gpu:latest
-ghcr.io/labring/fastgpt:v4.8.5
 
 #fastgpt
 pgvector/pgvector:0.7.0-pg15
@@ -28,8 +26,10 @@ ghcr.io/labring/fastgpt-sandbox:latest
 mysql:8.0.36
 ghcr.io/songquanpeng/one-api:latest
 ghcr.io/labring/fastgpt:v4.8.5
+ghcr.io/labring/fastgpt:latest
 
 #transformers
+huggingface/transformers-pytorch-gpu:latest
 huggingface/transformers-pytorch-gpu:4.41.2
 
 
