@@ -27,6 +27,9 @@ mysql:8.0.36
 ghcr.io/songquanpeng/one-api:latest
 ghcr.io/labring/fastgpt:v4.8.5
 ghcr.io/labring/fastgpt:latest
+ghcr.io/labring/fastgpt:v4.8
+
+# inference
 xprobe/xinference:latest
 
 #transformers
